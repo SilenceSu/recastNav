@@ -25,6 +25,7 @@ unity中navmesh数据使用以下工具导出 [https://github.com/kbengine/unity
     Easy3dNav nav = new Easy3dNav();
     nav.setUseU3dData(true);//默认为true，可以忽略
     nav.setPrintMeshInfo(true);//默认为false，查看需要设置为true
+    //服务端用的为 srv_*.navmesh  
     nav.init(filePath);
     
     //使用寻路接口，寻路
